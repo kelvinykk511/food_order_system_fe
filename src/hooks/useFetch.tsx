@@ -27,36 +27,43 @@ const useFetch: Function = (url: string) => {
                 "categoryData": [
                   {
                     "dish": "Salmon Sushi",
+                    "description":"This is a Salmon",
                     "price": 66,
                     "imgUrl": "https://izzycooking.com/wp-content/uploads/2020/10/Salmon-Nigiri-thumbnail-500x500.jpg"
                   },
                   {
                     "dish": "Toro Sushi",
+                    "description":"This is a Salmon",
                     "price": 44,
                     "imgUrl": "https://izzycooking.com/wp-content/uploads/2020/10/Salmon-Nigiri-thumbnail-500x500.jpg"
                   },
                   {
                     "dish": "Toro Sushi",
+                    "description":"This is a Salmon",
                     "price": 44,
                     "imgUrl": "https://izzycooking.com/wp-content/uploads/2020/10/Salmon-Nigiri-thumbnail-500x500.jpg"
                   },
                   {
                     "dish": "Toro Sushi",
+                    "description":"This is a Salmon",
                     "price": 44,
                     "imgUrl": "https://izzycooking.com/wp-content/uploads/2020/10/Salmon-Nigiri-thumbnail-500x500.jpg"
                   },
                   {
                     "dish": "Toro Sushi",
+                    "description":"This is a Salmon",
                     "price": 44,
                     "imgUrl": "https://izzycooking.com/wp-content/uploads/2020/10/Salmon-Nigiri-thumbnail-500x500.jpg"
                   },
                   {
                     "dish": "Toro Sushi",
+                    "description":"This is a Salmon",
                     "price": 44,
                     "imgUrl": "https://izzycooking.com/wp-content/uploads/2020/10/Salmon-Nigiri-thumbnail-500x500.jpg"
                   },
                   {
                     "dish": "Toro Sushi",
+                    "description":"This is a Salmon",
                     "price": 44,
                     "imgUrl": "https://izzycooking.com/wp-content/uploads/2020/10/Salmon-Nigiri-thumbnail-500x500.jpg"
                   },
@@ -68,11 +75,13 @@ const useFetch: Function = (url: string) => {
                 "categoryData":[
                   {
                     "dish": "Salmon shashimi",
+                    "description":"This is a Salmon",
                     "price": 666,
                     "imgUrl": "https://izzycooking.com/wp-content/uploads/2020/10/Salmon-Nigiri-thumbnail-500x500.jpg"
                   },
                   {
                     "dish": "Toro shashimi",
+                    "description":"This is a Salmon",
                     "price": 434,
                     "imgUrl": "https://izzycooking.com/wp-content/uploads/2020/10/Salmon-Nigiri-thumbnail-500x500.jpg"
                   },
