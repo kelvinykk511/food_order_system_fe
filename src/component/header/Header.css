@@ -9,3 +9,15 @@
     left:50%;
     transform: translate(-25%, -50%);
 }
+
+.header-table {
+    align-self: center;
+    text-align: center;
+}
+
+.header-order{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-105%, -50%);
+}

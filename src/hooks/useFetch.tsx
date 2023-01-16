@@ -18,15 +18,41 @@ const useFetch: Function = (url: string) => {
       setIsLoading(false);
       return;
     }
-    if (url === "order-test") {
+    if (url === "dishes-test") {
       setResult(
           {
             data: [
               {
-                "sushi": [
+                "categoryName":"sushi",
+                "categoryData": [
                   {
                     "dish": "Salmon Sushi",
                     "price": 66,
+                    "imgUrl": "https://izzycooking.com/wp-content/uploads/2020/10/Salmon-Nigiri-thumbnail-500x500.jpg"
+                  },
+                  {
+                    "dish": "Toro Sushi",
+                    "price": 44,
+                    "imgUrl": "https://izzycooking.com/wp-content/uploads/2020/10/Salmon-Nigiri-thumbnail-500x500.jpg"
+                  },
+                  {
+                    "dish": "Toro Sushi",
+                    "price": 44,
+                    "imgUrl": "https://izzycooking.com/wp-content/uploads/2020/10/Salmon-Nigiri-thumbnail-500x500.jpg"
+                  },
+                  {
+                    "dish": "Toro Sushi",
+                    "price": 44,
+                    "imgUrl": "https://izzycooking.com/wp-content/uploads/2020/10/Salmon-Nigiri-thumbnail-500x500.jpg"
+                  },
+                  {
+                    "dish": "Toro Sushi",
+                    "price": 44,
+                    "imgUrl": "https://izzycooking.com/wp-content/uploads/2020/10/Salmon-Nigiri-thumbnail-500x500.jpg"
+                  },
+                  {
+                    "dish": "Toro Sushi",
+                    "price": 44,
                     "imgUrl": "https://izzycooking.com/wp-content/uploads/2020/10/Salmon-Nigiri-thumbnail-500x500.jpg"
                   },
                   {
@@ -38,7 +64,8 @@ const useFetch: Function = (url: string) => {
                 ]
               },
               {
-                "shashimi": [
+                "categoryName":"shashimi",
+                "categoryData":[
                   {
                     "dish": "Salmon shashimi",
                     "price": 666,
